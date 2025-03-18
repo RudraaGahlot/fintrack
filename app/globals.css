@@ -98,6 +98,12 @@ html {
   transform: rotateX(0deg) scale(1) translateY(40px);
 }
 
+.grid-cols-7 {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  text-align: center;
+}
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
